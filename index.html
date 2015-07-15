@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+   
+    </head>
+    <body>
+<main>
+<header class="row">
+	<i class="mdi-device-battery-20 right"></i>
+	<div class="time right">
+		<span class="h">10 : </span>
+		<span class="m">45</span>
+		<span class="ap">AM</span>
+	</div>
+</header>
+<section id="mainActivityDisplay">
+<div class="headerDateTime">
+	<div class="leftD">
+		<span class="time">
+			<span class="h">10 : </span>
+			<span class="m">45</span>
+			<span class="ap">AM</span>
+		</span>
+		<span class="date">
+			TUE,&nbsp;MARCH 2019
+		</span>
+	</div>
+	<div class="rightD">
+		<i class="mdi-file-cloud-queue"></i>
+	</div>
+</div>
+<div class="mic">
+	<div>
+		<i class="mdi-av-mic large"></i>
+	</div>
+</div>
+<div class="console">
+	<p id="cDisplay"></p>
+	<button class="waves-effect waves-light btn "><i class="mdi-action-done"></i></button>
+</div></section>
+</main>
+
+
+<audio id="buzzer" src="sounds/on.mp3" type="audio/mp3"></audio>
+<audio id="buzzeroff" src="sounds/off.mp3" type="audio/mp3"></audio>
+
+    </body>
+</html>
+
+<script type="text/javascript" src="vendor/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="vendor/jquery-ui.min.js"></script>
+<script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="main.js"></script>

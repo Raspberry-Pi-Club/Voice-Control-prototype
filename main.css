@@ -1,0 +1,150 @@
+.right{
+  float: right;
+}
+
+header{
+  background: #69BE8B;
+  margin-bottom: 0 !important;
+}
+.leftD{
+    width: 240px;
+    color: #FFF;
+    background-color: #69B487;
+    float: left;
+    height: 100px;
+}
+.leftD > .time{
+    width: 240px;
+      display: inline-block;
+}
+.leftD > .time > .h  ,.leftD > .time > .m{
+  font-size: 50px;
+}
+.leftD > .time > .ap{
+  font-size: 25px;
+} 
+
+.leftD > .date{
+  padding-left: 10px; 
+}
+.rightD{
+  width: 120px;
+  height: 100px;
+  float: left;
+  padding-left: 41px;
+  background-color: #5B9E76;
+  padding-top: 10px;
+  color: #FFF;
+}
+.rightD > i{
+  font-size:50px;
+}
+.mic{
+    position: absolute;
+    cursor: pointer;
+    top: 174px;
+    left: 100px;
+    background-color: #EEE;
+    border: 5px solid #5B9E76;
+    border-radius: 73px;
+    width: 137px;
+    padding-left: 21px;
+    color: #1C84E8;
+    transition: .2s all;
+}
+.micRec{
+  border: 30px solid #CB1841 !important;
+  width: 200px;
+  border-radius: 122px;
+  height: 200px;
+  padding-left: 28px;
+  top: 159px;
+  left: 71px;
+  transition: .2s all;
+}
+.console{
+  background: url('icons/console-bg.png');
+  width: 95%;
+  height: 150px;
+  border-radius: 6px;
+  position: relative;
+  top: 350px;
+  margin: 0 auto;
+}
+.console > p{
+  color: white;
+  position: absolute;
+  margin: 10px;
+  font-size: 20px;
+}
+.console > button{
+  float: right;
+  left: -17px;
+  display: none;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  font-size: 50px;
+  width: 100%;
+  background: #CDCDCD;
+}
+
+footer > .app-fix{
+  margin-left: 16px !important;
+}
+
+footer > .app{
+  margin-left: 9px;
+}
+
+footer > .navigation{
+    margin: 0px 10px 0px 25px;
+}
+
+/*Locker */
+.overlay{
+  width: 100%;
+  position: absolute;
+  height: 84%;
+  background-color: #000;
+  top: 21px;
+  opacity: 0.5;
+}
+
+/* All apps Styles */
+
+.application{
+    width: 100px;
+
+    height: 100px;
+    display: inline-block;
+    margin: 10px 0px 0px 14px;
+}
+.application img{
+    width: 100px;
+
+    height: 100px;
+}
+.application span{
+    width: 100%;
+  
+    text-align: center;
+    display: block;
+}
+
+.settings-list   p{
+  font-size: 18px;
+}
+
+.settings-list   p > span{
+  font-size: 12px;
+}
+
+/* Standard */
+iframe{
+  width: 100%;
+  height: 500px;
+  border:0;
+  padding-bottom: 50px;
+}
